@@ -76,7 +76,7 @@ public class Client {
 			numPlayers = Integer.parseInt(fromServer.readLine());
 			System.out.println("Total players: " + numPlayers);
 			
-			myDiceCount = 1;
+			myDiceCount = 5;
 			initDice(myDiceCount);
 			
 			for (int i = 0; i < 2; i++) {
